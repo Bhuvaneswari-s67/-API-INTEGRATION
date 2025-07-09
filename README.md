@@ -52,3 +52,5 @@ How It Works:
 
 This app uses data from these providers under their free-tier licenses. For personal or educational use only. Please review their terms if you plan to use the app commercially.
 
+
+<img width="1920" height="1017" alt="Image" src="https://github.com/user-attachments/assets/094779ed-3f51-4964-98db-2ee0a515d71e" />
