@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="aheadon,explore-places,history,unknown stories,map">
+  <title>aheadon.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylez.css">
+</head>
+
+<body>
+
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCZQIl7kn351yjFAmL8STvlKuJqy3HY7nnKw&s " alt="AheadOn_logo" width="50px" height="50px">
+    <h3 class="heading">AheadOn</h3>
+  </header>
+  
+  <div class="lineDiv"></div>
+  
+  <h1>Explore <br> the places</h1>
+
+  <div id="main-division">
+     <div id="content-container">
+       <p class="paragraph">
+         Every place has a story—and we love sharing them. From hidden corners to iconic landmarks, we explore the beauty, history, and meaning behind the spaces that make the world unique.
+         There’s always something new to discover.
+       </p>
+     </div>
+     <div id="searchBar">
+      <form id="search-form">
+       <input type="text" id="cityInput" placeholder="Jeju, Trichy..." required />
+      </form>
+     </div>
+  </div>
+
+  <div id="places">
+    <!-- Places will be loaded here dynamically -->
+  </div>
+
+  <div id="placeDetails" class="details-box" style="display:none;">
+    <h2>Selected Place Details</h2>
+     <img id="detailImg" src="" alt="Image" />
+      <h4 id="detailName"></h4>
+    <p id="detailDesc"></p>
+     <a id="detailMap" href="#" target="_blank"> View on Map</a>
+  </div>
+
+  <div id="top">
+   <div id="top-container">
+      <a href="#" class="top-bttn">top</a>
+   </div>
+  </div>
+
+  <footer>
+    <nav>
+     <a href="index.html">Home</a> |
+     <a href="about.html">About</a> |
+    </nav>
+
+    <p>Questions? <a href="mailto:support@aheadon.com" style="color: blueviolet;">Email us</a></p>
+    
+    <p style="color: black;">&copy;2025 AheadOn App. All rights reserved.</p>
+  </footer>
+
+
+  <script>
+    document.getElementById('search-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+       const input = document.getElementById('cityInput').value.trim();
+        if (input) {
+         await searchCity(input);
+      }
+    });
+
+    function toggleMenu() {
+     const sidebar = document.getElementById("sidebar");
+      if (sidebar.style.left === "0px") {
+        sidebar.style.left = "-200px";
+      } else {
+      sidebar.style.left = "0px";
+    }
+   }
+  </script>
+  
+  <script src="mains.js"></script>
+</body>
+</html>
