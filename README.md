@@ -11,9 +11,7 @@
    MENTOR: NEELA SANTOSH
 
   
-       AheadOn is a smart, lightweight web application that helps users explore fascinating places around the world with just a city name. It’s your virtual travel companion for discovering local attractions such as historical monuments, nature parks, cultural landmarks, and architectural wonders. AheadOn uses real-time data powered by the "Geoapify" and "OpenTripMap" APIs to provide an immersive exploration experience for users who love travel, learning, and discovery.
-
-Whether you're a tourist planning your next adventure or a student exploring the globe, AheadOn is designed to be fast, visual, and easy to use.
+       AheadOn is a smart, lightweight web application that helps users explore fascinating places around the world with just a city name. It’s your virtual travel companion for discovering local attractions such as historical monuments, nature parks, cultural landmarks, and architectural wonders. AheadOn uses real-time data powered by the "Geoapify" and "OpenTripMap" APIs to provide an immersive exploration experience for users who love travel, learning, and discovery.Whether you're a tourist planning your next adventure or a student exploring the globe, AheadOn is designed to be fast, visual, and easy to use.
 
 Features:
 
