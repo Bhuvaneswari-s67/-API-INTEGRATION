@@ -1,5 +1,5 @@
-const geoApiKey = "9c734600c6ce4c169878f6e425dbef9c";
-const tripApiKey = "5ae2e3f221c38a28845f05b62a73435c0acc85274f33c2b41d087383";
+const geoApiKey = "YOUR_API_KEY_HERE";
+const tripApiKey = "YOUR_API_KEY_HERE";
 
 
 async function searchCity(input) {
